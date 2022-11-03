@@ -61,6 +61,11 @@ is the [K-function][k-function].
 ## Usage
 
 ```javascript
+import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-glaisher-kinkelin/tags). For example,
+
+```javascript
 import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.0.8-esm/index.mjs';
 ```
 
@@ -91,7 +96,7 @@ var bool = ( GLAISHER === 1.2824271291006226 );
 <body>
 <script type="module">
 
-import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.0.8-esm/index.mjs';
+import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@esm/index.mjs';
 
 console.log( 'Glaisher\'s constant: %d', GLAISHER );
 // => 'Glaisher\'s constant: 1.2824271291006226'
