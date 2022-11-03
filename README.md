@@ -61,7 +61,7 @@ is the [K-function][k-function].
 ## Usage
 
 ```javascript
-import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@esm/index.mjs';
+import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.0.8-esm/index.mjs';
 ```
 
 #### GLAISHER
@@ -91,7 +91,7 @@ var bool = ( GLAISHER === 1.2824271291006226 );
 <body>
 <script type="module">
 
-import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@esm/index.mjs';
+import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.0.8-esm/index.mjs';
 
 console.log( 'Glaisher\'s constant: %d', GLAISHER );
 // => 'Glaisher\'s constant: 1.2824271291006226'
