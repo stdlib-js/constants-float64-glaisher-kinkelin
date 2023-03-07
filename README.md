@@ -30,10 +30,14 @@ limitations under the License.
 
 <!-- <equation class="equation" label="eq:glaisher_kinkelin_constant" align="center" raw="A = \lim_{n\to\infty} \frac{K(n + 1)}{n^{n^2/2 + n/2 + 1/12}e^{-n^2/4}}" alt="Glaisher-Kinkelin constant"> -->
 
-<div class="equation" align="center" data-raw-text="A = \lim_{n\to\infty} \frac{K(n + 1)}{n^{n^2/2 + n/2 + 1/12}e^{-n^2/4}}" data-equation="eq:glaisher_kinkelin_constant">
+```math
+A = \lim_{n\to\infty} \frac{K(n + 1)}{n^{n^2/2 + n/2 + 1/12}e^{-n^2/4}}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="A = \lim_{n\to\infty} \frac{K(n + 1)}{n^{n^2/2 + n/2 + 1/12}e^{-n^2/4}}" data-equation="eq:glaisher_kinkelin_constant">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6e1cf583c4854b3d982f22f361f53a30c9f552dc/lib/node_modules/@stdlib/constants/float64/glaisher-kinkelin/docs/img/equation_glaisher_kinkelin_constant.svg" alt="Glaisher-Kinkelin constant">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -41,10 +45,14 @@ where
 
 <!-- <equation class="equation" label="eq:k_function" align="center" raw="K(n) = \prod_{k=1}^{n-1} k^k" alt="K-function"> -->
 
-<div class="equation" align="center" data-raw-text="K(n) = \prod_{k=1}^{n-1} k^k" data-equation="eq:k_function">
+```math
+K(n) = \prod_{k=1}^{n-1} k^k
+```
+
+<!-- <div class="equation" align="center" data-raw-text="K(n) = \prod_{k=1}^{n-1} k^k" data-equation="eq:k_function">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6e1cf583c4854b3d982f22f361f53a30c9f552dc/lib/node_modules/@stdlib/constants/float64/glaisher-kinkelin/docs/img/equation_k_function.svg" alt="K-function">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -54,38 +62,30 @@ is the [K-function][k-function].
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-glaisher-kinkelin
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-GLAISHER = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var GLAISHER = require( 'path/to/vendor/umd/constants-float64-glaisher-kinkelin/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.GLAISHER;
-})();
-</script>
+var GLAISHER = require( '@stdlib/constants-float64-glaisher-kinkelin' );
 ```
 
 #### GLAISHER
@@ -109,21 +109,11 @@ var bool = ( GLAISHER === 1.2824271291006226 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var GLAISHER = require( '@stdlib/constants-float64-glaisher-kinkelin' );
 
 console.log( 'Glaisher\'s constant: %d', GLAISHER );
 // => 'Glaisher\'s constant: 1.2824271291006226'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -132,7 +122,57 @@ console.log( 'Glaisher\'s constant: %d', GLAISHER );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/glaisher_kinkelin.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_GLAISHER
+
+Macro for the [Glaisher-Kinkelin][glaisher-constant] constant.
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -195,7 +235,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
