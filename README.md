@@ -80,6 +80,11 @@ is the [K-function][k-function].
 ## Usage
 
 ```javascript
+import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-glaisher-kinkelin/tags). For example,
+
+```javascript
 import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.2.0-deno/mod.js';
 ```
 
@@ -105,7 +110,7 @@ var bool = ( GLAISHER === 1.2824271291006226 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.2.0-deno/mod.js';
+import GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@deno/mod.js';
 
 console.log( 'Glaisher\'s constant: %d', GLAISHER );
 // => 'Glaisher\'s constant: 1.2824271291006226'
