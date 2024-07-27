@@ -82,6 +82,11 @@ is the [K-function][k-function].
 To use in Observable,
 
 ```javascript
+GLAISHER = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-glaisher-kinkelin/tags). For example,
+
+```javascript
 GLAISHER = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.2.2-umd/browser.js' )
 ```
 
@@ -94,7 +99,7 @@ var GLAISHER = require( 'path/to/vendor/umd/constants-float64-glaisher-kinkelin/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -132,7 +137,7 @@ var bool = ( GLAISHER === 1.2824271291006226 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-glaisher-kinkelin@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
